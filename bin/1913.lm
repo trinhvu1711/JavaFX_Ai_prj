@@ -1,0 +1,73 @@
+Language model created by QuickLM on Fri Dec  9 12:07:07 EST 2022
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 14 words
+
+\data\
+ngram 1=14
+ngram 2=24
+ngram 3=12
+
+\1-grams:
+-1.8573 1 -0.2218
+-1.8573 2 -0.2218
+-1.8573 3 -0.2218
+-1.8573 4 -0.2218
+-1.8573 5 -0.2218
+-1.8573 6 -0.2218
+-1.8573 7 -0.2218
+-1.8573 8 -0.2218
+-1.8573 9 -0.2218
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.8573 BEGIN -0.2218
+-1.8573 GRADE -0.2218
+-1.8573 ID -0.2218
+
+\2-grams:
+-0.3010 1 </s> -0.3010
+-0.3010 2 </s> -0.3010
+-0.3010 3 </s> -0.3010
+-0.3010 4 </s> -0.3010
+-0.3010 5 </s> -0.3010
+-0.3010 6 </s> -0.3010
+-0.3010 7 </s> -0.3010
+-0.3010 8 </s> -0.3010
+-0.3010 9 </s> -0.3010
+-1.3802 <s> 1 0.0000
+-1.3802 <s> 2 0.0000
+-1.3802 <s> 3 0.0000
+-1.3802 <s> 4 0.0000
+-1.3802 <s> 5 0.0000
+-1.3802 <s> 6 0.0000
+-1.3802 <s> 7 0.0000
+-1.3802 <s> 8 0.0000
+-1.3802 <s> 9 0.0000
+-1.3802 <s> BEGIN 0.0000
+-1.3802 <s> GRADE 0.0000
+-1.3802 <s> ID 0.0000
+-0.3010 BEGIN </s> -0.3010
+-0.3010 GRADE </s> -0.3010
+-0.3010 ID </s> -0.3010
+
+\3-grams:
+-0.3010 <s> 1 </s>
+-0.3010 <s> 2 </s>
+-0.3010 <s> 3 </s>
+-0.3010 <s> 4 </s>
+-0.3010 <s> 5 </s>
+-0.3010 <s> 6 </s>
+-0.3010 <s> 7 </s>
+-0.3010 <s> 8 </s>
+-0.3010 <s> 9 </s>
+-0.3010 <s> BEGIN </s>
+-0.3010 <s> GRADE </s>
+-0.3010 <s> ID </s>
+
+\end\

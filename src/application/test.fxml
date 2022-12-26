@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<ImageView fitHeight="61.0" fitWidth="58.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@bot.png" />
+			</image>
+			<HBox.margin>
+				<Insets right="10.0" />
+			</HBox.margin>
+		</ImageView>
+		<Label maxWidth="272.0" style="-fx-border-radius: 10; -fx-border-color: #DCDCDC; -fx-padding: 5px;" text="Hello there Hello there Hello there Hello there Hello there Hello there Hello there " wrapText="true">
+			<font>
+				<Font name="Ebrima" size="16.0" />
+			</font>
+		</Label>
+	</children>
+	<FlowPane.margin>
+		<Insets top="10.0" />
+	</FlowPane.margin>
+</HBox>
